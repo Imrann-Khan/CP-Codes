@@ -1,0 +1,1 @@
+{"name":"Local: BUET_IUPC_3_F","url":"e:\\C C++\\BUET_IUPC_3_F.cpp","tests":[{"id":1688631622649,"input":"3","output":"2"},{"id":1688631626481,"input":"10 ","output":"24"},{"id":1688631631453,"input":"100","output":"2739"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C C++\\BUET_IUPC_3_F.cpp","group":"local","local":true}

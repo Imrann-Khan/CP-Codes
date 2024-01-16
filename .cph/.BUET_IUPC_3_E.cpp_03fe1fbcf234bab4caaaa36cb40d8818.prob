@@ -1,0 +1,1 @@
+{"name":"Local: BUET_IUPC_3_E","url":"e:\\C C++\\BUET_IUPC_3_E.cpp","tests":[{"id":1688615297082,"input":"2 2","output":"1"},{"id":1688615300595,"input":"2 3","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C C++\\BUET_IUPC_3_E.cpp","group":"local","local":true}
