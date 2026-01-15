@@ -1,1 +1,0 @@
-{"name":"Local: Two_Friends","url":"d:\\CP Solves\\Two_Friends.cpp","tests":[{"id":1715113556057,"input":"3\n5\n3 1 2 5 4\n4\n2 3 4 1\n2\n2 1","output":"2\n3\n2"},{"id":1715113968229,"input":"1\n3\n2 3 1","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\Two_Friends.cpp","group":"local","local":true}

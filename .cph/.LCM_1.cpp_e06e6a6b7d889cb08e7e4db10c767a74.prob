@@ -1,1 +1,0 @@
-{"name":"Local: LCM_1","url":"d:\\CP Solves\\LCM_1.cpp","tests":[{"id":1737647043201,"input":"2\n3 \n5 7 15\n6 \n4 10296 936 1287 792 1","output":"105\n10296"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\LCM_1.cpp","group":"local","local":true}

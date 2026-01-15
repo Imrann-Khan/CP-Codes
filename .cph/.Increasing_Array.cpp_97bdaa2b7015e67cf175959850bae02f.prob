@@ -1,1 +1,0 @@
-{"name":"Local: Increasing_Array","url":"d:\\CP Solves\\Increasing_Array.cpp","tests":[{"id":1711485351655,"input":"5\n3 2 5 1 7","output":"5"},{"id":1711486876067,"input":"10\n6 10 4 10 2 8 9 2 7 7","output":"31"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\Increasing_Array.cpp","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: I wanna be the guy","url":"d:\\CP Solves\\I wanna be the guy.cpp","tests":[{"id":1706995694287,"input":"4\n3 1 2 3\n2 2 4","output":"I become the guy."}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\I wanna be the guy.cpp","group":"local","local":true}

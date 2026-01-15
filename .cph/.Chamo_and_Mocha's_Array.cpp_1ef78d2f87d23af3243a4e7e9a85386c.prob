@@ -1,1 +1,0 @@
-{"name":"Local: Chamo_and_Mocha's_Array","url":"d:\\CP Solves\\Chamo_and_Mocha's_Array.cpp","tests":[{"id":1716656533700,"input":"2\n2\n1 2\n5\n1 2 3 4 5","output":"1\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\Chamo_and_Mocha's_Array.cpp","group":"local","local":true}

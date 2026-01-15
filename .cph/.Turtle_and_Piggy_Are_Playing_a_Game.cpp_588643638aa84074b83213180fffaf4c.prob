@@ -1,1 +1,0 @@
-{"name":"Local: Turtle_and_Piggy_Are_Playing_a_Game","url":"d:\\CP Solves\\Turtle_and_Piggy_Are_Playing_a_Game.cpp","tests":[{"id":1717150657206,"input":"5\n2 4\n3 6\n2 15\n6 22\n114514 1919810","output":"2\n2\n3\n4\n20"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\Turtle_and_Piggy_Are_Playing_a_Game.cpp","group":"local","local":true}

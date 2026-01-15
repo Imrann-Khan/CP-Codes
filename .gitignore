@@ -8,5 +8,7 @@ Practice/
 
 .cph/
  
+.vscode/
+ 
 # Ignore compiled binaries
 *.exe

@@ -1,1 +1,0 @@
-{"name":"Local: Alternating_Sum_of_Numbers","url":"d:\\CP Solves\\Alternating_Sum_of_Numbers.cpp","tests":[{"id":1724946790264,"input":"4\n4\n1 2 3 17\n1\n100\n2\n100 100\n5\n3 1 4 1 5","output":"-15\n100\n0\n10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\Alternating_Sum_of_Numbers.cpp","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: New_Year_and_Hurry","url":"d:\\CP Solves\\New_Year_and_Hurry.cpp","tests":[{"id":1710786140824,"input":"3 222","output":"2"},{"id":1710786161045,"input":"4 190","output":"4"},{"id":1710786167907,"input":"7 1","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\New_Year_and_Hurry.cpp","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: PRIMESM","url":"d:\\CP Solves\\PRIMESM.cpp","tests":[{"id":1737646685181,"input":"2\n3 6\n3 2","output":"0\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\PRIMESM.cpp","group":"local","local":true}

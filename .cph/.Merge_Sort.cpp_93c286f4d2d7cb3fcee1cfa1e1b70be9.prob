@@ -1,1 +1,0 @@
-{"name":"Local: Merge_Sort","url":"d:\\CP Solves\\Merge_Sort.cpp","tests":[{"id":1738206329731,"input":"7\n6 53 8 7 73 7 1","output":"1 6 7 7 8 53 73 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\Merge_Sort.cpp","group":"local","local":true}

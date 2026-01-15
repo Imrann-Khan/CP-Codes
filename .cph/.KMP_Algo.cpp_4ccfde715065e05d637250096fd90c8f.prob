@@ -1,1 +1,0 @@
-{"name":"Local: KMP_Algo","url":"d:\\CP Solves\\CP Solves\\KMP_Algo.cpp","tests":[{"id":1753257520074,"input":"ababcababaad\nababa","output":"5"},{"id":1753257562640,"input":"abcbgtabc\nabc","output":"0 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\CP Solves\\KMP_Algo.cpp","group":"local","local":true}
