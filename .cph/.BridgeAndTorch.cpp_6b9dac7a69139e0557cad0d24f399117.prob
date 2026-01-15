@@ -1,0 +1,1 @@
+{"name":"Local: BridgeAndTorch","url":"d:\\CP Solves\\CP Solves\\BridgeAndTorch.cpp","tests":[{"id":1766974881577,"input":"4\n1 2 8 9","output":"16"},{"id":1766975116294,"input":"6\n14 45 73 86 95 98","output":"434"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\CP Solves\\BridgeAndTorch.cpp","group":"local","local":true}

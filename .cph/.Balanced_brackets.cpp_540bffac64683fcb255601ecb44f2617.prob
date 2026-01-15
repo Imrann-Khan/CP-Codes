@@ -1,0 +1,1 @@
+{"name":"Local: Balanced_brackets","url":"d:\\CP Solves\\Balanced_brackets.cpp","tests":[{"id":1711575713535,"input":"3\n([])\n(([()])))\n([()[]()])()","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\Balanced_brackets.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Sum_in_Binary_Tree","url":"d:\\CP Solves\\Sum_in_Binary_Tree.cpp","tests":[{"id":1711344738089,"input":"6\n3\n10\n37\n1\n10000000000000000\n15","output":"4\n18\n71\n1\n19999999999999980\n26"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\Sum_in_Binary_Tree.cpp","group":"local","local":true}

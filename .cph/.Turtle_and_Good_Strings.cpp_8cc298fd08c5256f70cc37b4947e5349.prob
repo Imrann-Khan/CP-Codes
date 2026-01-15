@@ -1,0 +1,1 @@
+{"name":"Local: Turtle_and_Good_Strings","url":"d:\\CP Solves\\Turtle_and_Good_Strings.cpp","tests":[{"id":1724596980215,"input":"4\n2\naa\n3\naba\n4\nabcb\n12\nabcabcabcabc","output":"NO\nNO\nYES\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\Turtle_and_Good_Strings.cpp","group":"local","local":true}

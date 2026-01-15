@@ -1,218 +1,123 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-class Node{
-public:
-    int key, level;
-    Node *left, *right, *parent;
-};
 
+struct TreeNode
+{
+    int value;
+    TreeNode *left;
+    TreeNode *right;
 
-class BST{
-public:
-    Node *root;
-
-    void insert(int val){
-
+    TreeNode()
+    {
+        left=nullptr;
+        right=nullptr;
     }
-
-    Node* findNode(int val){
-
+    TreeNode(int value)
+    {
+        this->value=value;
+        left=nullptr;
+        right=nullptr;
     }
-
-    Node* findMaximum(Node *node){
-
-    }
-
-    Node* findMinimum(Node *node){
-
-    }
-
-    void inOrder(Node *node){
-
-    }
-
-private:
-    Node* findSuccessor(Node *node){
-
-    }
-
-    void delete0Child(Node *node){
-
-    }
-
-    void delete1Child(Node *node){
-
-    }
-
-    void delete2Child(Node *node){
-
-    }
-
-public:
-    bool deleteNode(int val){
-
-    }
-
-    int height(Node *node){
-        ///returns the height of the bst
-        ///Must develop a recursive solution
-    }
-
-
-    void bfs(){
-        queue<Node*> q;
-        root->level = 0;
-        int level = root->level;
-        q.push(root);
-
-        while(!q.empty()){
-            Node *temp = q.front();
-            q.pop();
-            if(temp->level > level){
-                cout<<endl;
-                level++;
-            }
-            cout<<temp->key<<" ";
-            if(temp->left!=NULL){
-                if(temp->left!=root)  temp->left->level = temp->level + 1;
-                q.push(temp->left);
-            }
-            if(temp->right!=NULL){
-                if(temp->right!=root)  temp->right->level = temp->level + 1;
-                q.push(temp->right);
-            }
-        }
+    TreeNode(int value, TreeNode* left, TreeNode* right)
+    {
+        this->value=value;
+        this->left=left;
+        this->right=right;
     }
 };
 
+bool Search(TreeNode *root, int val)
+{
+    if(root==nullptr) return false;
+    if(root->value==val) return true; 
+    if(val<root->value) return Search(root->left,val);
+    if(val>root->value) return Search(root->right,val);
+    return false;
+}
 
-
-
-
-
-
-
-
-
-int main(){
-    BST b;
-
-    while(1){
-        cout<<"1. Insert    2. Sort      3. Level Order    4. Minimum\n5. Maximum   6. Delete    7. Height         8. End\n\n";
-        int x;
-        cin>>x;
-
-        if(x==1){
-            cout<<"Insert Value: ";
-            int y;
-            cin>>y;
-            b.insert(y);
-            cout<<y<<" is inserted in the tree"<<endl;
-        }
-
-        else if(x==2){
-            cout<<"Sorted List of the tree: ";
-            b.inOrder(b.root);
+TreeNode *Insert(TreeNode* root, int val)
+{
+    if(root==nullptr) return new TreeNode(val);
+    if(val<root->value) root->left = Insert(root->left,val);
+    if(val>=root->value) root->right = Insert(root->right,val);
+    return root;
+}
+void printLevelOrder(TreeNode *root)
+{
+    if(root==NULL) return;
+    queue<TreeNode*> q;
+    q.push(root);
+    q.push(NULL);
+    while(q.size()>1)
+    {
+        TreeNode *cur=q.front();
+        q.pop();
+        if(cur==NULL)
+        {
             cout<<endl;
+            q.push(NULL);
+            continue;
         }
-
-        else if(x==3){
-            if(b.root==NULL){
-                cout<<"Tree is empty"<<endl;
-                continue;
-            }
-            cout<<"Level Wise Traversal of the tree:"<<endl;
-            b.bfs();
-            cout<<endl;
-        }
-
-        else if(x==4){
-            if(b.root==NULL){
-                cout<<"Tree is empty"<<endl;
-                continue;
-            }
-            cout<<"Minimum of the tree: ";
-            Node *min = b.findMinimum(b.root);
-            cout<<min->key<<endl;
-        }
-
-        else if(x==5){
-            if(b.root==NULL){
-                cout<<"Tree is empty"<<endl;
-                continue;
-            }
-            cout<<"Maximum of the tree: ";
-            Node *max = b.findMaximum(b.root);
-            cout<<max->key<<endl;
-        }
-
-        else if(x==6){
-            if(b.root==NULL){
-                cout<<"Tree is empty"<<endl;
-                continue;
-            }
-            cout<<"Delete Value: ";
-            int y;
-            cin>>y;
-            bool test = b.deleteNode(y);
-            if(test)   cout<<y<<" is deleted from the tree"<<endl;
-            else    cout<<y<<" is not found in the tree"<<endl;
-        }
-        else if(x==7){
-            if(b.root==NULL){
-                cout<<"Tree is empty"<<endl;
-                continue;
-            }
-            cout<<"Height of the tree: "<<b.height(b.root)<<endl;
-        }
-        else if(x==8){
-            break;
-        }
-        else{
-            cout<<"Invalid Choice"<<endl;
-        }
-        cout<<endl;
+        cout<<cur->value<<" ";
+        if(cur->left!=NULL) q.push(cur->left);
+        if(cur->right!=NULL) q.push(cur->right);
     }
 }
 
-/*
-1
-44
+TreeNode* Succ(TreeNode* root)
+{
+    while(root->left!=nullptr)
+        root=root->left;
+    return root;
+}
 
-1
-17
+TreeNode* Delete(TreeNode* root, int val)
+{
+    if(root==nullptr) return root;
+    if(val<root->value)
+        root->left = Delete(root->left,val);
+    else if(val>root->value)
+        root->right = Delete(root->right,val);
+    else
+    {
+        if(root->left==nullptr)
+        {
+            TreeNode* temp = root->right;
+            delete root;
+            return temp;
+        }
+        if(root->right==nullptr)
+        {
+            TreeNode* temp = root->right;
+            delete root;
+            return temp;
+        }
+        else
+        {
+            TreeNode* succ = Succ(root->right);
+            root->value = succ->value;
+            root->right = Delete(root->right,succ->value);
+        }
+        return root;
+    }
+}
 
-1
-88
+signed main()
+{
+    TreeNode *root=new TreeNode(15);
+    root->left= new TreeNode(5);
+    root->left->left= new TreeNode(3);
+    root->right= new TreeNode(20);
+    root->right->right= new TreeNode(80);
+    root->right->left= new TreeNode(18);
+    root->right->right->left= new TreeNode(16);
 
-1
-32
-
-1
-65
-
-1
-97
-
-1
-28
-
-1
-54
-
-1
-82
-
-1
-29
-
-1
-76
-
-1
-80
-*/
-
-
-
+    //cout<<Search(root, 18)<<endl;
+    printLevelOrder(root);
+    Insert(root,100);
+    cout<<endl;
+    Delete(root, 20);
+    cout<<endl;
+    printLevelOrder(root);
+}

@@ -1,0 +1,14 @@
+d:\CP Solves\CP Solves\Practice\.cphcsrun\obj\Release\net10.0\.cphcsrun.GeneratedMSBuildEditorConfig.editorconfig
+d:\CP Solves\CP Solves\Practice\.cphcsrun\obj\Release\net10.0\.cphcsrun.AssemblyInfoInputs.cache
+d:\CP Solves\CP Solves\Practice\.cphcsrun\obj\Release\net10.0\.cphcsrun.AssemblyInfo.cs
+d:\CP Solves\CP Solves\Practice\.cphcsrun\obj\Release\net10.0\.cphcsrun.csproj.CoreCompileInputs.cache
+d:\CP Solves\CP Solves\Practice\Program_bin\.cphcsrun.exe
+d:\CP Solves\CP Solves\Practice\Program_bin\.cphcsrun.deps.json
+d:\CP Solves\CP Solves\Practice\Program_bin\.cphcsrun.runtimeconfig.json
+d:\CP Solves\CP Solves\Practice\Program_bin\.cphcsrun.dll
+d:\CP Solves\CP Solves\Practice\Program_bin\.cphcsrun.pdb
+d:\CP Solves\CP Solves\Practice\.cphcsrun\obj\Release\net10.0\.cphcsrun.dll
+d:\CP Solves\CP Solves\Practice\.cphcsrun\obj\Release\net10.0\refint\.cphcsrun.dll
+d:\CP Solves\CP Solves\Practice\.cphcsrun\obj\Release\net10.0\.cphcsrun.pdb
+d:\CP Solves\CP Solves\Practice\.cphcsrun\obj\Release\net10.0\.cphcsrun.genruntimeconfig.cache
+d:\CP Solves\CP Solves\Practice\.cphcsrun\obj\Release\net10.0\ref\.cphcsrun.dll

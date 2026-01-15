@@ -1,0 +1,12 @@
+.cphcsrun/
+
+Course/
+
+pbj/
+
+Practice/
+
+.cph/
+ 
+# Ignore compiled binaries
+*.exe

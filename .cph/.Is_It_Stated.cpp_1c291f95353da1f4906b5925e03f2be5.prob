@@ -1,0 +1,1 @@
+{"name":"Local: Is_It_Stated","url":"d:\\CP Solves\\Is_It_Stated.cpp","tests":[{"id":1712093065411,"input":"10\nis\nit\nstated\nsubmit\nac\naccepted\nwa\nwronganswer\ntle\ntimelimitexceeded","output":"NO\nYES\nNO\nYES\nNO\nNO\nNO\nNO\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\Is_It_Stated.cpp","group":"local","local":true}

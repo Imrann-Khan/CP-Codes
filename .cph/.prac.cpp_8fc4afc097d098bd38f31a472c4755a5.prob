@@ -1,0 +1,1 @@
+{"name":"Local: prac","url":"d:\\CP Solves\\prac.cpp","tests":[{"id":1738162940764,"input":"11\n2 3 4 6 9 12 11 8 6 4 1","output":"5"},{"id":1738165301059,"input":"2\n2 1","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP Solves\\prac.cpp","group":"local","local":true}
